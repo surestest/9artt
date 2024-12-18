@@ -1,0 +1,87 @@
+/* General Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #cce6ff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    margin-right: 15px;
+  }
+  
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+  
+ 
+  .title-section {
+    flex: 1;
+  }
+  
+  .company-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .app-name {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .welcome-message {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  
+  .user-icon {
+    margin-right: 5px;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
+  
+  .nav-button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #555;
+  }
+  
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .help-icon,
+  .logout-icon {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
